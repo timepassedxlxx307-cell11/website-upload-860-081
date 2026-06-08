@@ -1,0 +1,547 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>搜索影片 - 欧美影视</title>
+  <meta name="description" content="在欧美影视搜索欧美电影、欧美剧集、动作、悬疑、爱情、纪录片等精彩内容。">
+  <meta name="keywords" content="搜索影片,在线搜索,欧美视频,免费观看,在线视频,欧美电影,欧美剧集,高清视频,免费影视,热门剧集">
+  <link rel="stylesheet" href="./assets/css/site.css">
+  <script defer src="./assets/js/site.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="./index.html" aria-label="欧美影视">
+        <span class="brand-mark">欧</span>
+        <span class="brand-copy">
+          <strong>欧美影视</strong>
+          <small>热门影视剧集一网打尽</small>
+        </span>
+      </a>
+      <nav class="desktop-nav" aria-label="主导航">
+        <a class="nav-link " href="./index.html">首页</a>
+        <a class="nav-link " href="./categories.html">分类</a>
+        <a class="nav-link " href="./ranking.html">排行榜</a>
+        <a class="nav-link is-active" href="./search.html">搜索</a>
+        <div class="nav-dropdown">
+          <button class="nav-link dropdown-button" type="button">更多分类</button>
+          <div class="dropdown-panel">
+          <a href="./category-europe-us.html">欧美精选</a>
+          <a href="./category-action-thriller.html">动作惊悚</a>
+          <a href="./category-drama-history.html">剧情历史</a>
+          <a href="./category-romance-family.html">爱情家庭</a>
+          <a href="./category-suspense-crime.html">悬疑犯罪</a>
+          <a href="./category-comedy-life.html">喜剧生活</a>
+          <a href="./category-science-fantasy.html">科幻奇幻</a>
+          <a href="./category-documentary.html">纪录纪实</a>
+          </div>
+        </div>
+      </nav>
+      <form class="header-search" action="./search.html" method="get">
+        <input name="q" type="search" placeholder="搜索影片、类型、地区" autocomplete="off">
+        <button type="submit">搜索</button>
+      </form>
+      <button class="menu-toggle" type="button" aria-label="展开导航" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div class="mobile-panel" hidden>
+      <form class="mobile-search" action="./search.html" method="get">
+        <input name="q" type="search" placeholder="搜索影片、类型、地区" autocomplete="off">
+        <button type="submit">搜索</button>
+      </form>
+        <a class="mobile-link " href="./index.html">首页</a>
+        <a class="mobile-link " href="./categories.html">分类</a>
+        <a class="mobile-link " href="./ranking.html">排行榜</a>
+        <a class="mobile-link is-active" href="./search.html">搜索</a>
+    </div>
+  </header>
+  <main>
+    <section class="page-hero search-hero">
+      <div>
+        <p>Search</p>
+        <h1>搜索影片</h1>
+        <span>输入片名、类型、地区、年份或关键词，快速定位想看的内容。</span>
+      </div>
+    </section>
+    <section class="content-section search-section">
+      <form class="search-panel" id="movie-search-form" action="./search.html" method="get">
+        <input id="movie-search-input" name="q" type="search" placeholder="输入关键词" autocomplete="off">
+        <button class="button button-primary" type="submit">搜索</button>
+      </form>
+      <div id="search-results" class="movie-grid search-results" aria-live="polite"></div>
+    </section>
+    <section class="content-section">
+    <div class="section-heading">
+      <div>
+        <h2>热门推荐</h2>
+        <p>也可以从这些热门内容开始浏览。</p>
+      </div>
+      
+    </div>
+      <div class="movie-grid">
+      <a class="movie-card" href="./movie-1919.html" title="小龙虾游山庄">
+        <span class="poster-wrap">
+          <img src="./119.jpg" alt="小龙虾游山庄" loading="lazy">
+          <span class="poster-shade"></span>
+          <span class="duration-badge">120:27</span>
+          <span class="play-badge">▶</span>
+        </span>
+        <span class="card-body">
+          <strong>小龙虾游山庄</strong>
+          <em>十岁男孩被送回即将拆迁的江西山村过暑假,他发现山庄里最后一户邻居,是一只会用钳子画画的小龙虾。</em>
+          <span class="meta-row">
+            <span>2024</span>
+            <span>中国大陆</span>
+            <span>电影</span>
+          </span>
+          <span class="tag-row"><span>留守儿童</span><span>暑假</span><span>农村消亡</span></span>
+        </span>
+      </a>
+      <a class="movie-card" href="./movie-1324.html" title="诱惑2">
+        <span class="poster-wrap">
+          <img src="./124.jpg" alt="诱惑2" loading="lazy">
+          <span class="poster-shade"></span>
+          <span class="duration-badge">127:09</span>
+          <span class="play-badge">▶</span>
+        </span>
+        <span class="card-body">
+          <strong>诱惑2</strong>
+          <em>前作女主角复仇成功后,收到一盒录像带,里面的自己正被一个长相完全相同的女人控制。</em>
+          <span class="meta-row">
+            <span>2024</span>
+            <span>韩国</span>
+            <span>电影</span>
+          </span>
+          <span class="tag-row"><span>惊悚</span><span>反转</span><span>心理战</span></span>
+        </span>
+      </a>
+      <a class="movie-card" href="./movie-1664.html" title="消失的情人节">
+        <span class="poster-wrap">
+          <img src="./14.jpg" alt="消失的情人节" loading="lazy">
+          <span class="poster-shade"></span>
+          <span class="duration-badge">82:44</span>
+          <span class="play-badge">▶</span>
+        </span>
+        <span class="card-body">
+          <strong>消失的情人节</strong>
+          <em>邮局柜员杨晓淇发现,全世界的所有人都消失了一天,唯独她被留在了那个空白的情人节。</em>
+          <span class="meta-row">
+            <span>2020</span>
+            <span>中国台湾</span>
+            <span>电影</span>
+          </span>
+          <span class="tag-row"><span>时间</span><span>快慢</span><span>错过</span></span>
+        </span>
+      </a>
+      <a class="movie-card" href="./movie-256.html" title="老师早上好">
+        <span class="poster-wrap">
+          <img src="./106.jpg" alt="老师早上好" loading="lazy">
+          <span class="poster-shade"></span>
+          <span class="duration-badge">98:53</span>
+          <span class="play-badge">▶</span>
+        </span>
+        <span class="card-body">
+          <strong>老师早上好</strong>
+          <em>一位菜鸟女教师被分到全校最乱的放牛班,却发现班上学生的父母都是她当年的高中同学。</em>
+          <span class="meta-row">
+            <span>1994</span>
+            <span>中国台湾</span>
+            <span>剧集</span>
+          </span>
+          <span class="tag-row"><span>校园温情</span><span>代际和解</span><span>怀旧风</span></span>
+        </span>
+      </a>
+      <a class="movie-card" href="./movie-1439.html" title="捕情人">
+        <span class="poster-wrap">
+          <img src="./89.jpg" alt="捕情人" loading="lazy">
+          <span class="poster-shade"></span>
+          <span class="duration-badge">118:11</span>
+          <span class="play-badge">▶</span>
+        </span>
+        <span class="card-body">
+          <strong>捕情人</strong>
+          <em>一名私家侦探专接“捉奸”案子,却在偷拍过程中,发现自己爱上了每一个婚外情的主角。</em>
+          <span class="meta-row">
+            <span>1998</span>
+            <span>香港</span>
+            <span>电影</span>
+          </span>
+          <span class="tag-row"><span>情色</span><span>悬疑</span><span>侦探</span></span>
+        </span>
+      </a>
+      <a class="movie-card" href="./movie-430.html" title="少女革命">
+        <span class="poster-wrap">
+          <img src="./130.jpg" alt="少女革命" loading="lazy">
+          <span class="poster-shade"></span>
+          <span class="duration-badge">123:58</span>
+          <span class="play-badge">▶</span>
+        </span>
+        <span class="card-body">
+          <strong>少女革命</strong>
+          <em>女扮男装的“王子”进入贵族学院,为拯救“蔷薇新娘”而挑战学生会决斗者。</em>
+          <span class="meta-row">
+            <span>1997</span>
+            <span>日本</span>
+            <span>动画剧集</span>
+          </span>
+          <span class="tag-row"><span>几原邦彦</span><span>象征主义</span><span>蔷薇新娘</span></span>
+        </span>
+      </a>
+      <a class="movie-card" href="./movie-571.html" title="流金故梦">
+        <span class="poster-wrap">
+          <img src="./121.jpg" alt="流金故梦" loading="lazy">
+          <span class="poster-shade"></span>
+          <span class="duration-badge">88:08</span>
+          <span class="play-badge">▶</span>
+        </span>
+        <span class="card-body">
+          <strong>流金故梦</strong>
+          <em>1935年的上海,一位从华尔街归来的女金融天才伪装成交际花,要向害死父亲的三大银楼家族复仇。</em>
+          <span class="meta-row">
+            <span>2025</span>
+            <span>中国大陆</span>
+            <span>电视剧</span>
+          </span>
+          <span class="tag-row"><span>民国</span><span>上海滩</span><span>旗袍</span></span>
+        </span>
+      </a>
+      <a class="movie-card" href="./movie-1910.html" title="洛神国语">
+        <span class="poster-wrap">
+          <img src="./110.jpg" alt="洛神国语" loading="lazy">
+          <span class="poster-shade"></span>
+          <span class="duration-badge">130:50</span>
+          <span class="play-badge">▶</span>
+        </span>
+        <span class="card-body">
+          <strong>洛神国语</strong>
+          <em>甄宓不仅是三国第一美人,更是曹植的灵魂知音,但在乱世中,美貌和才华都是她的原罪。</em>
+          <span class="meta-row">
+            <span>2025</span>
+            <span>中国香港</span>
+            <span>剧集</span>
+          </span>
+          <span class="tag-row"><span>神话</span><span>悲剧</span><span>权谋</span></span>
+        </span>
+      </a>
+      <a class="movie-card" href="./movie-1345.html" title="自我人生">
+        <span class="poster-wrap">
+          <img src="./145.jpg" alt="自我人生" loading="lazy">
+          <span class="poster-shade"></span>
+          <span class="duration-badge">128:12</span>
+          <span class="play-badge">▶</span>
+        </span>
+        <span class="card-body">
+          <strong>自我人生</strong>
+          <em>一位哲学家接受大脑扫描实验,醒来后发现自己的意识被困在元宇宙里,而肉身正在举行葬礼。</em>
+          <span class="meta-row">
+            <span>2026</span>
+            <span>法国</span>
+            <span>电影</span>
+          </span>
+          <span class="tag-row"><span>哲学</span><span>存在主义</span><span>身份认同</span></span>
+        </span>
+      </a>
+      <a class="movie-card" href="./movie-1595.html" title="劳拉的星星在中国">
+        <span class="poster-wrap">
+          <img src="./95.jpg" alt="劳拉的星星在中国" loading="lazy">
+          <span class="poster-shade"></span>
+          <span class="duration-badge">119:19</span>
+          <span class="play-badge">▶</span>
+        </span>
+        <span class="card-body">
+          <strong>劳拉的星星在中国</strong>
+          <em>德国小女孩劳拉跟随星星来到中国,她必须和云南傣族男孩一起找到最后一颗星星的碎片,才能拯救星空。</em>
+          <span class="meta-row">
+            <span>2025</span>
+            <span>德国/中国大陆</span>
+            <span>电影/动画</span>
+          </span>
+          <span class="tag-row"><span>合拍片</span><span>儿童动画</span><span>跨国友谊</span></span>
+        </span>
+      </a>
+      <a class="movie-card" href="./movie-222.html" title="荣耀乒乓">
+        <span class="poster-wrap">
+          <img src="./72.jpg" alt="荣耀乒乓" loading="lazy">
+          <span class="poster-shade"></span>
+          <span class="duration-badge">146:23</span>
+          <span class="play-badge">▶</span>
+        </span>
+        <span class="card-body">
+          <strong>荣耀乒乓</strong>
+          <em>一个是被国家队开除的天才,一个是省队捡来的“球痴”,两人联手冲击大满贯。</em>
+          <span class="meta-row">
+            <span>2024</span>
+            <span>中国大陆</span>
+            <span>剧集</span>
+          </span>
+          <span class="tag-row"><span>热血</span><span>国球</span><span>师徒传承</span></span>
+        </span>
+      </a>
+      <a class="movie-card" href="./movie-1107.html" title="影后风云">
+        <span class="poster-wrap">
+          <img src="./57.jpg" alt="影后风云" loading="lazy">
+          <span class="poster-shade"></span>
+          <span class="duration-badge">100:34</span>
+          <span class="play-badge">▶</span>
+        </span>
+        <span class="card-body">
+          <strong>影后风云</strong>
+          <em>两代影后争抢同一角色,排练厅里她们演尽母女、仇人、爱人——却分不清哪些是剧本。</em>
+          <span class="meta-row">
+            <span>2025</span>
+            <span>中国大陆/台湾</span>
+            <span>电影</span>
+          </span>
+          <span class="tag-row"><span>娱乐圈</span><span>双女主</span><span>演技博弈</span></span>
+        </span>
+      </a>
+      <a class="movie-card" href="./movie-1205.html" title="宝剑夺河山">
+        <span class="poster-wrap">
+          <img src="./5.jpg" alt="宝剑夺河山" loading="lazy">
+          <span class="poster-shade"></span>
+          <span class="duration-badge">131:15</span>
+          <span class="play-badge">▶</span>
+        </span>
+        <span class="card-body">
+          <strong>宝剑夺河山</strong>
+          <em>南宋末年,铸剑世家被金人灭门,唯一存活的哑女携家传“山河剑谱”踏上复仇之路,她却不知道剑谱其实是空的。</em>
+          <span class="meta-row">
+            <span>1971</span>
+            <span>中国大陆</span>
+            <span>电影</span>
+          </span>
+          <span class="tag-row"><span>邵氏</span><span>铸剑</span><span>抗金</span></span>
+        </span>
+      </a>
+      <a class="movie-card" href="./movie-1807.html" title="亦舞之城">
+        <span class="poster-wrap">
+          <img src="./7.jpg" alt="亦舞之城" loading="lazy">
+          <span class="poster-shade"></span>
+          <span class="duration-badge">123:16</span>
+          <span class="play-badge">▶</span>
+        </span>
+        <span class="card-body">
+          <strong>亦舞之城</strong>
+          <em>曾经的拉丁舞女王因伤退役,十年后竟以清洁工身份,重回仇人开设的顶级舞团。</em>
+          <span class="meta-row">
+            <span>2025</span>
+            <span>中国大陆</span>
+            <span>电视剧</span>
+          </span>
+          <span class="tag-row"><span>拉丁舞</span><span>复仇</span><span>姐弟恋</span></span>
+        </span>
+      </a>
+      <a class="movie-card" href="./movie-1618.html" title="吸烟者">
+        <span class="poster-wrap">
+          <img src="./118.jpg" alt="吸烟者" loading="lazy">
+          <span class="poster-shade"></span>
+          <span class="duration-badge">85:42</span>
+          <span class="play-badge">▶</span>
+        </span>
+        <span class="card-body">
+          <strong>吸烟者</strong>
+          <em>新搬来的邻居从不吸烟,但他呼出的烟雾能让任何人看到自己做过最内疚的事。</em>
+          <span class="meta-row">
+            <span>2018</span>
+            <span>韩国</span>
+            <span>电影</span>
+          </span>
+          <span class="tag-row"><span>奇幻设定</span><span>因果关系</span><span>二手烟</span></span>
+        </span>
+      </a>
+      <a class="movie-card" href="./movie-1482.html" title="看不见的敌人">
+        <span class="poster-wrap">
+          <img src="./132.jpg" alt="看不见的敌人" loading="lazy">
+          <span class="poster-shade"></span>
+          <span class="duration-badge">86:21</span>
+          <span class="play-badge">▶</span>
+        </span>
+        <span class="card-body">
+          <strong>看不见的敌人</strong>
+          <em>一种通过舆论传播的“概念病毒”席卷全球,人类开始忘记最基础的生活常识。</em>
+          <span class="meta-row">
+            <span>2025</span>
+            <span>英国</span>
+            <span>电视剧</span>
+          </span>
+          <span class="tag-row"><span>空气传播</span><span>认知污染</span><span>集体癔症</span></span>
+        </span>
+      </a>
+      <a class="movie-card" href="./movie-50.html" title="王爷你好贱第三季">
+        <span class="poster-wrap">
+          <img src="./50.jpg" alt="王爷你好贱第三季" loading="lazy">
+          <span class="poster-shade"></span>
+          <span class="duration-badge">100:36</span>
+          <span class="play-badge">▶</span>
+        </span>
+        <span class="card-body">
+          <strong>王爷你好贱第三季</strong>
+          <em>现代毒舌脱口秀演员穿越成受气包王妃,把腹黑王爷怼到自闭,却意外开启了反撩模式。</em>
+          <span class="meta-row">
+            <span>2025</span>
+            <span>中国大陆</span>
+            <span>网络微短剧</span>
+          </span>
+          <span class="tag-row"><span>穿越</span><span>反套路</span><span>沙雕</span></span>
+        </span>
+      </a>
+      <a class="movie-card" href="./movie-1974.html" title="天使的收音机">
+        <span class="poster-wrap">
+          <img src="./24.jpg" alt="天使的收音机" loading="lazy">
+          <span class="poster-shade"></span>
+          <span class="duration-badge">97:53</span>
+          <span class="play-badge">▶</span>
+        </span>
+        <span class="card-body">
+          <strong>天使的收音机</strong>
+          <em>一个过气的深夜电台主播,在节目停播前最后一晚,接到了一个自称来自1999年地震废墟中的小女孩的求救电话。</em>
+          <span class="meta-row">
+            <span>2025</span>
+            <span>中国台湾</span>
+            <span>电影</span>
+          </span>
+          <span class="tag-row"><span>亲情救赎</span><span>怀旧</span><span>灵异电台</span></span>
+        </span>
+      </a>
+      <a class="movie-card" href="./movie-790.html" title="行尸崛起之丧尸新娘">
+        <span class="poster-wrap">
+          <img src="./40.jpg" alt="行尸崛起之丧尸新娘" loading="lazy">
+          <span class="poster-shade"></span>
+          <span class="duration-badge">135:45</span>
+          <span class="play-badge">▶</span>
+        </span>
+        <span class="card-body">
+          <strong>行尸崛起之丧尸新娘</strong>
+          <em>末日爆发时,男主角正要和丧尸化的新娘举行婚礼,他决定带着只剩本能的爱人杀出一条血路。</em>
+          <span class="meta-row">
+            <span>2025</span>
+            <span>日本/美国</span>
+            <span>电影</span>
+          </span>
+          <span class="tag-row"><span>丧尸</span><span>婚纱</span><span>公路</span></span>
+        </span>
+      </a>
+      <a class="movie-card" href="./movie-809.html" title="欢乐人家">
+        <span class="poster-wrap">
+          <img src="./59.jpg" alt="欢乐人家" loading="lazy">
+          <span class="poster-shade"></span>
+          <span class="duration-badge">114:25</span>
+          <span class="play-badge">▶</span>
+        </span>
+        <span class="card-body">
+          <strong>欢乐人家</strong>
+          <em>九十年代北京某机关大院,三户人家的鸡毛蒜皮,笑料百出又温情满满。</em>
+          <span class="meta-row">
+            <span>1998</span>
+            <span>中国大陆</span>
+            <span>剧集</span>
+          </span>
+          <span class="tag-row"><span>家庭</span><span>邻里</span><span>九十年代</span></span>
+        </span>
+      </a>
+      <a class="movie-card" href="./movie-1474.html" title="人皮交易">
+        <span class="poster-wrap">
+          <img src="./124.jpg" alt="人皮交易" loading="lazy">
+          <span class="poster-shade"></span>
+          <span class="duration-badge">129:31</span>
+          <span class="play-badge">▶</span>
+        </span>
+        <span class="card-body">
+          <strong>人皮交易</strong>
+          <em>一名美国缉毒局探员和一名泰国杀手联手,捣毁了一个将流浪汉当作“活体器官培养皿”的跨国黑市。</em>
+          <span class="meta-row">
+            <span>2024</span>
+            <span>泰国,美国</span>
+            <span>电影</span>
+          </span>
+          <span class="tag-row"><span>器官贩卖</span><span>东南亚</span><span>硬核动作</span></span>
+        </span>
+      </a>
+      <a class="movie-card" href="./movie-688.html" title="毁灭倒数">
+        <span class="poster-wrap">
+          <img src="./88.jpg" alt="毁灭倒数" loading="lazy">
+          <span class="poster-shade"></span>
+          <span class="duration-badge">126:53</span>
+          <span class="play-badge">▶</span>
+        </span>
+        <span class="card-body">
+          <strong>毁灭倒数</strong>
+          <em>一颗小行星将在7天后撞击地球,但在公之于众的第1天,一个探员发现:毁灭已经发生过无数次了。</em>
+          <span class="meta-row">
+            <span>2025</span>
+            <span>韩国</span>
+            <span>剧集</span>
+          </span>
+          <span class="tag-row"><span>末世</span><span>倒计时</span><span>时间循环</span></span>
+        </span>
+      </a>
+      <a class="movie-card" href="./movie-991.html" title="人间蒸发">
+        <span class="poster-wrap">
+          <img src="./91.jpg" alt="人间蒸发" loading="lazy">
+          <span class="poster-shade"></span>
+          <span class="duration-badge">147:56</span>
+          <span class="play-badge">▶</span>
+        </span>
+        <span class="card-body">
+          <strong>人间蒸发</strong>
+          <em>一个普通上班族在地铁站消失得无影无踪,三年后,有人在一个偏远渔村看到了他的脸,但那张脸属于另一个男人。</em>
+          <span class="meta-row">
+            <span>2023</span>
+            <span>日本</span>
+            <span>电影</span>
+          </span>
+          <span class="tag-row"><span>社会派推理</span><span>人口失踪</span><span>身份盗窃</span></span>
+        </span>
+      </a>
+      <a class="movie-card" href="./movie-1227.html" title="上线下线">
+        <span class="poster-wrap">
+          <img src="./27.jpg" alt="上线下线" loading="lazy">
+          <span class="poster-shade"></span>
+          <span class="duration-badge">129:23</span>
+          <span class="play-badge">▶</span>
+        </span>
+        <span class="card-body">
+          <strong>上线下线</strong>
+          <em>一位退休民警为找回陷入传销的女儿,主动潜入虚拟币骗局,从底层做到了区域总裁。</em>
+          <span class="meta-row">
+            <span>2026</span>
+            <span>中国大陆</span>
+            <span>剧集</span>
+          </span>
+          <span class="tag-row"><span>网络传销</span><span>反诈</span><span>卧底</span></span>
+        </span>
+      </a>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>
+        <a class="footer-brand" href="./index.html">欧美影视</a>
+        <p>欧美在线视频免费观看网站，汇聚热门欧美影视剧集，提供高清免费在线观看体验，涵盖最新电影、电视剧、纪录片等精彩内容。</p>
+      </div>
+      <div class="footer-links">
+        <a href="./index.html">首页</a>
+        <a href="./categories.html">分类</a>
+        <a href="./ranking.html">排行榜</a>
+        <a href="./search.html">搜索</a>
+      </div>
+    </div>
+    <div class="footer-bottom">© 2026 欧美影视 · 热门影视剧集一网打尽</div>
+  </footer>
+<script src="./assets/js/search.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?95df08bc498ee0333203841fd6fee1eb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
